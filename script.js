@@ -251,3 +251,13 @@ console.log('Auto diesel', cars2);
 console.log('Resto delle Auto',cars3);
 
 
+//Con il for each
+
+cars.forEach((cars)=>{
+    if (cars.fuel === 'benzina' && cars.fuel !== "diesel"){
+        carType.push(cars2)
+    }
+})
+
+// con Filter ?
+
